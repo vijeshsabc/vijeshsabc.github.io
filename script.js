@@ -9,6 +9,7 @@ function checkToday(){
     alert("Not yet uploaded!");
     
 }
+}
 function clearInput() {
   document.getElementById("myInput").value = "";
   const event = new Event('change', { bubbles: true });
