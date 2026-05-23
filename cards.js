@@ -10,7 +10,7 @@ function loadCards() {
     {
       date: "18 May 2026",
       topic: "Session 2",
-      description: "In this session, we focused on trigonometric integrals, which involve integrating products of sine and cosine functions. We explored various strategies for solving these integrals, including using trigonometric identities to simplify the expressions. We also practiced integrating powers of sine and cosine, as well as integrals involving secant and tangent functions. By the end of the class, students gained a solid understanding of how to approach and solve trigonometric integrals.",
+      description: "-",
       isToday: false,
       youtubeLink: "q9b-WboiuhY"
     },
