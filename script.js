@@ -47,7 +47,7 @@ function createCard(date, topic, description,isToday=false,youtubeLink="#") {
       </div>
     </div>
     <!-- Footer -->
-    <div onclick="openLink('https://api.whatsapp.com/send?phone=')" class="card-footer text-end bg-secondary text-light">
+    <div onclick="openLink('https://api.whatsapp.com/send?phone=6381812428')" class="card-footer text-end bg-secondary text-light">
       <i class="bi bi-person-circle fs-4"></i>
     </div>
   </div>`;
