@@ -27,7 +27,7 @@ function createCard(date, topic, description,isToday=false,youtubeLink="#") {
       <!-- Buttons -->
       <div class="d-flex flex-wrap gap-2 mb-3">
        <button class="btn btn-outline-info" disabled><s>Class Slides</s></button>
-        <button class="btn btn-outline-light" disabled><s>Smart Notes</s></button>
+        <button class="btn btn-outline-light" disabled><s>Notes</s></button>
         <button class="btn btn-outline-success" disabled><s>Topic Covered</s></button>
         <button class="btn btn-outline-warning" disabled><s>Quiz</s></button>
       </div>
