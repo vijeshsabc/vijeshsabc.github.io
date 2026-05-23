@@ -1,6 +1,14 @@
 function openLink(url) {
   window.location.href = url;
 }
+
+function checkToday(){
+  if(document.getElementById('today')){
+   console.log("Today's class is uploaded!");
+  }else{
+    alert("Not yet uploaded!");
+    
+}
 function clearInput() {
   document.getElementById("myInput").value = "";
   const event = new Event('change', { bubbles: true });
