@@ -35,14 +35,14 @@ function createCard(date, topic, description,isToday=false,youtubeLink="#") {
       </p>
       <!-- Buttons -->
       <div class="d-flex flex-wrap gap-2 mb-3">
-       <button class="btn btn-outline-info" disabled><s>Class Slides</s></button>
+     <!--  <button class="btn btn-outline-info" disabled><s>Class Slides</s></button> -->
         <button class="btn btn-outline-light" disabled><s>Notes</s></button>
-        <button class="btn btn-outline-success" disabled><s>Topic Covered</s></button>
+      <!--  <button class="btn btn-outline-success" disabled><s>Topic Covered</s></button> -->
         <button class="btn btn-outline-warning" disabled><s>Quiz</s></button>
       </div>
       <!-- Replay -->
       <div class="container-fluid ">
-         <button style="width: 100%; display: block;" class="btn  btn-danger btn-sm" data-bs-toggle="modal" data-bs-target="#myModal" onclick="openPlayer('${youtubeLink}')">
+         <button style="width: 100%; display: block;" class="btn border-white" data-bs-toggle="modal" data-bs-target="#myModal" onclick="openPlayer('${youtubeLink}')">
           <i class="bi bi-play-fill"></i> <span class="text-light fs-6">Replay</span>
         </button>
       </div>
