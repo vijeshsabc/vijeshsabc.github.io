@@ -41,8 +41,8 @@ function createCard(date, topic, description,isToday=false,youtubeLink="#") {
         <button class="btn btn-outline-warning" disabled><s>Quiz</s></button>
       </div>
       <!-- Replay -->
-      <div class="d-flex justify-content-end">
-         <button class="btn btn-danger btn-sm" data-bs-toggle="modal" data-bs-target="#myModal" onclick="openPlayer('${youtubeLink}')">
+      <div class="container-fluid ">
+         <button style="width: 100%; display: block;" class="btn  btn-danger btn-sm" data-bs-toggle="modal" data-bs-target="#myModal" onclick="openPlayer('${youtubeLink}')">
           <i class="bi bi-play-fill"></i> <span class="text-light fs-6">Replay</span>
         </button>
       </div>
